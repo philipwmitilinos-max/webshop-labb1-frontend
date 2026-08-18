@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Kontakt</title>
+  </head>
+  <body>
+    <header>
+      <h1>Webshop</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Hem</a></li>
+          <li><a href="products.html">Produkter</a></li>
+          <li><a href="about.html">Om oss</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
+          <li><a href="privacy.html">Integritetspolicy</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Kontakta oss</h2>
+        <article>
+          <p>
+            Har du några frågor eller funderingar? Fyll i formuläret nedan så
+            återkommer vi så snart som möjligt.
+          </p>
+          <form>
+            <label for="name">Namn:</label>
+            <input type="text" id="name" name="name" />
+
+            <br /><br />
+
+            <label for="email">E-post:</label>
+            <input type="email" id="email" name="email" />
+
+            <br /><br />
+
+            <label for="subject">Ämne:</label>
+            <select name="subject" name="subject">
+              <option value="-">Välj ett alternativ</option>
+              <option value="question">Fråga</option>
+              <option value="order">Fråga om beställning</option>
+              <option value="other">Övrigt</option>
+            </select>
+
+            <br /><br />
+
+            <label for="message">Meddelande:</label>
+            <br />
+            <textarea name="message" id="message" rows="6" cols="40"></textarea>
+
+            <br /><br />
+
+            <button type="submit">Skicka</button>
+          </form>
+
+          <p>
+            De uppgifter du länar används endast för att kunna svara på ditt
+            meddelande. Läs mer i vår
+            <a href="privacy.html">Integritetspolicy</a>
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer>
+      &copy;<em
+        >Philip Mitilinos, 2026, E-post: philip.mitilinos@epost.com, Detta är en
+        enkel webbplats <a href="privacy.html">integritetpolicyn</a></em
+      >
+    </footer>
+  </body>
+</html>
