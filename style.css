@@ -109,3 +109,15 @@ footer {
 footer a {
   color: white;
 }
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: white;
+}
