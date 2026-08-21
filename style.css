@@ -35,6 +35,10 @@ nav a:hover {
   text-decoration: underline;
 }
 
+nav a:focus {
+  outline: 3px solid yellow;
+}
+
 main {
   padding: 20px;
 }
@@ -108,6 +112,10 @@ footer {
 
 footer a {
   color: white;
+}
+
+a:focus {
+  outline: 3px solid yellow;
 }
 
 .products-list {
