@@ -29,12 +29,24 @@
           </p>
           <form>
             <label for="name">Namn:</label>
-            <input type="text" id="name" name="name" />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              autocomplete="name"
+              required
+            />
 
             <br /><br />
 
             <label for="email">E-post:</label>
-            <input type="email" id="email" name="email" autocomplete="email" />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              autocomplete="email"
+              required
+            />
 
             <br /><br />
 
@@ -50,7 +62,13 @@
 
             <label for="message">Meddelande:</label>
             <br />
-            <textarea name="message" id="message" rows="6" cols="40"></textarea>
+            <textarea
+              name="message"
+              id="message"
+              rows="6"
+              cols="40"
+              required
+            ></textarea>
 
             <br /><br />
 
