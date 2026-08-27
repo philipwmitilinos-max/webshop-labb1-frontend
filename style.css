@@ -119,9 +119,10 @@ a:focus {
   outline: 3px solid yellow;
 }
 
-.products {
+.products-list {
   display: flex;
   padding: 20px;
+  flex-wrap: wrap;
 }
 
 .space {
