@@ -67,14 +67,11 @@ section img {
   border-radius: 8px;
 }
 
-article img {
-  width: 250px;
-  height: 200px;
-  object-fit: cover;
-}
-
 form {
   max-width: 500px;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
 }
 
 form input,
@@ -85,6 +82,7 @@ form textarea {
   margin-top: 5px;
   margin-bottom: 15px;
   box-sizing: border-box;
+  border: 1px solid #ccc;
 }
 
 button {
@@ -102,7 +100,7 @@ video {
 }
 
 label {
-  display: inline-block;
+  display: block;
   width: 100px;
 }
 
@@ -123,7 +121,6 @@ a:focus {
 
 .products {
   display: flex;
-  border: 1px solid #ccc;
   padding: 20px;
 }
 
@@ -137,5 +134,12 @@ a:focus {
   padding: 20px;
   margin: 10px;
   background-color: white;
+  border: 1px solid #ccc;
   text-align: left;
+}
+
+.product-card img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
 }
